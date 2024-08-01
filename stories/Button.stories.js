@@ -32,6 +32,12 @@ export const Secondary = {
     label: 'Button',
   },
 };
+export const Secondary2 = {
+  args: {
+    label: 'Button',
+    secondary:true
+  },
+};
 
 export const Large = {
   args: {
