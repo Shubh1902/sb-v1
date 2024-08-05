@@ -18,9 +18,11 @@
     "url": "git+https://github.com/Shubh1902/sb-v1.git"
   },
   "scripts": {
-    "test": "node ./__tests__/button.test.js"
+    "test": "node ./__tests__/button.test.js",
+    "build": "rollup --config"
   },
   "bugs": {
     "url": "https://github.com/Shubh1902/sb-v1/issues"
-  }
+  },
+  "gitHead": "48b0a792a5f3d26bb3a22840a58efb4ad439bf83"
 }

@@ -1,11 +1,11 @@
 {
-  "name": "header",
+  "name": "page",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Shubhanshu Bahuguna <bahuguna.shubhanshu19@gmail.com>",
   "homepage": "https://github.com/Shubh1902/sb-v1#readme",
   "license": "ISC",
-  "main": "lib/header.js",
+  "main": "lib/page.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,10 +18,9 @@
     "url": "git+https://github.com/Shubh1902/sb-v1.git"
   },
   "scripts": {
-    "test": "node ./__tests__/header.test.js"
+    "test": "node ./__tests__/page.test.js"
   },
   "bugs": {
     "url": "https://github.com/Shubh1902/sb-v1/issues"
-  },
-  "gitHead": "48b0a792a5f3d26bb3a22840a58efb4ad439bf83"
+  }
 }

@@ -6,9 +6,35 @@
     "packages/core/*"
   ],
   "devDependencies": {
-    "lerna": "^8.1.7"
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "@chromatic-com/storybook": "^1.6.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@storybook/addon-essentials": "^8.2.7",
+    "@storybook/addon-interactions": "^8.2.7",
+    "@storybook/addon-links": "^8.2.7",
+    "@storybook/addon-onboarding": "^8.2.7",
+    "@storybook/blocks": "^8.2.7",
+    "@storybook/react": "^8.2.7",
+    "@storybook/react-vite": "^8.2.7",
+    "@storybook/test": "^8.2.7",
+    "lerna": "^8.1.7",
+    "prop-types": "^15.8.1",
+    "rollup": "^4.20.0",
+    "rollup-plugin-import-css": "^3.5.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "storybook": "^8.2.7"
   },
-  "scripts": {},
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
   "version": "",
-  "dependencies": {}
+  "dependencies": {
+    "react": "^18.3.1"
+  }
 }
