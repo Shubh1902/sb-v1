@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = utils;
-
-function utils() {
-  return 'Hello from utils';
+export function getComment() {
+  return "Hello from utils";
 }

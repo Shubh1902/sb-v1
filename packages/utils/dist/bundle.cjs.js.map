@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.cjs.js","sources":["../lib/utils.js"],"sourcesContent":["export function getComment() {\n  return \"Hello from utils\";\n}\n"],"names":[],"mappings":"gCAAO,WACL,MAAO,kBACT"}

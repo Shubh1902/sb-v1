@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button } from '../../button/lib/Button';
+// import { Button } from '../../button/lib/Button';
 import './header.css';
 
 export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
@@ -25,7 +25,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
         </svg>
         <h1>Acme</h1>
       </div>
-      <div>
+      {/* <div>
         {user ? (
           <>
             <span className="welcome">
@@ -39,7 +39,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
             <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
           </>
         )}
-      </div>
+      </div> */}
     </div>
   </header>
 );
