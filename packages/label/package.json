@@ -1,10 +1,10 @@
 {
-  "name": "@dpw/label",
+  "name": "@shubh1902/label",
   "version": "1.1.0",
   "description": "> TODO: description",
   "author": "Shubhanshu Bahuguna <bahuguna.shubhanshu19@gmail.com>",
   "homepage": "https://github.com/Shubh1902/sb-v1#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/label.js",
   "directories": {
     "lib": "lib",
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/Shubh1902/sb-v1/issues"
   },
-  "gitHead": "9ed76260461f9993bb17d9f2fa2390b90014d4a6"
+  "gitHead": "6e3e979401070d017b66415107f626f72411c703"
 }
