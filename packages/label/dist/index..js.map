@@ -1,0 +1,1 @@
+{"version":3,"file":"index..js","sources":["../lib/Label.jsx"],"sourcesContent":["import React from \"react\"\nexport default function Label(){\n  return <label>Label</label>\n}"],"names":["Label","React","createElement"],"mappings":"qBACe,SAASA,IACtB,OAAOC,EAAAC,cAAA,QAAA,KAAO,QAChB"}

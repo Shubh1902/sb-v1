@@ -1,11 +1,11 @@
 {
-  "name": "@dpw/header",
-  "version": "1.1.0",
+  "name": "@dpw/label",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Shubhanshu Bahuguna <bahuguna.shubhanshu19@gmail.com>",
   "homepage": "https://github.com/Shubh1902/sb-v1#readme",
   "license": "ISC",
-  "main": "lib/header.js",
+  "main": "lib/label.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,16 +13,18 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/Shubh1902/sb-v1.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubh1902/sb-v1.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
-    "test": "node ./__tests__/header.test.js",
+    "test": "node ./__tests__/label.test.js",
     "build": "rollup --c --bundleConfigAsCjs"
   },
   "bugs": {
     "url": "https://github.com/Shubh1902/sb-v1/issues"
-  },
-  "gitHead": "efb2227229c9770e66b43425d2d43a55a6fa267c"
+  }
 }

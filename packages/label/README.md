@@ -1,11 +1,11 @@
-# `header`
+# `label`
 
 > TODO: description
 
 ## Usage
 
 ```
-const header = require('header');
+const label = require('label');
 
 // TODO: DEMONSTRATE API
 ```

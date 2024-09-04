@@ -5,7 +5,7 @@ import terser from "@rollup/plugin-terser";
 import css from "rollup-plugin-import-css";
 
 export default {
-  input: "./lib/Header.jsx", // Adjust the entry point as needed
+  input: "./lib/Label.jsx", // Adjust the entry point as needed
   output: [
     {
       file: "dist/index..js",

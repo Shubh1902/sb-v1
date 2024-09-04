@@ -11,7 +11,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={backgroundColor && { backgroundColor , height:"50px"}}
+      style={backgroundColor && { backgroundColor , height:"50px" , width:"200px"}}
       {...props}
     >
       {label}
