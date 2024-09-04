@@ -2,8 +2,7 @@
   "name": "sb-v1",
   "private": true,
   "workspaces": [
-    "packages/utils",
-    "packages/core/*"
+    "packages/*"
   ],
   "devDependencies": {
     "@babel/core": "^7.25.2",
