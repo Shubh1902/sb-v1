@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@dpw/button",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Shubhanshu Bahuguna <bahuguna.shubhanshu19@gmail.com>",
@@ -14,6 +14,9 @@
     "lib"
   ],
   "repository": "https://github.com/Shubh1902/sb-v1.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "node ./__tests__/button.test.js",
     "build": "rollup --c --bundleConfigAsCjs"

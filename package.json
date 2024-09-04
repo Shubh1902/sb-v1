@@ -1,5 +1,5 @@
 {
-  "name": "sb-v1",
+  "name": "@dpw/sb-v1",
   "private": true,
   "workspaces": [
     "packages/*"
