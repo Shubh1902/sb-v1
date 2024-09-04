@@ -13,13 +13,10 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shubh1902/sb-v1.git"
-  },
+  "repository": "https://github.com/Shubh1902/sb-v1.git",
   "scripts": {
     "test": "node ./__tests__/header.test.js",
-    "build": "rollup --config"
+    "build": "rollup --c --bundleConfigAsCjs"
   },
   "bugs": {
     "url": "https://github.com/Shubh1902/sb-v1/issues"
