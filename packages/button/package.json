@@ -1,6 +1,7 @@
 {
   "name": "@dpw/button",
   "version": "1.0.1",
+  "private": true,
   "description": "> TODO: description",
   "author": "Shubhanshu Bahuguna <bahuguna.shubhanshu19@gmail.com>",
   "homepage": "https://github.com/Shubh1902/sb-v1#readme",
@@ -24,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/Shubh1902/sb-v1/issues"
   },
-  "gitHead": "48b0a792a5f3d26bb3a22840a58efb4ad439bf83"
+  "gitHead": "efb2227229c9770e66b43425d2d43a55a6fa267c"
 }
