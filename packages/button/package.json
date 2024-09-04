@@ -1,5 +1,5 @@
 {
-  "name": "@dpw/button",
+  "name": "@shubh1902/button",
   "version": "1.2.0",
   "description": "> TODO: description",
   "author": "Shubhanshu Bahuguna <bahuguna.shubhanshu19@gmail.com>",
@@ -15,7 +15,7 @@
   ],
   "repository": "https://github.com/Shubh1902/sb-v1.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/shubh1902"
   },
   "scripts": {
     "test": "node ./__tests__/button.test.js",
@@ -24,5 +24,5 @@
   "bugs": {
     "url": "https://github.com/Shubh1902/sb-v1/issues"
   },
-  "gitHead": "efb2227229c9770e66b43425d2d43a55a6fa267c"
+  "gitHead": "9ed76260461f9993bb17d9f2fa2390b90014d4a6"
 }
